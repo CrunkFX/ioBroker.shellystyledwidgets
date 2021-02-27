@@ -1,0 +1,78 @@
+{
+    "common": {
+        "name": "shellystyledwidgets",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Shelly Styled Widgets",
+        "titleLang": {
+            "en": "Shelly Styled Widgets",
+            "de": "Widgets im Shelly-Stil",
+            "ru": "Виджеты в стиле Шелли",
+            "pt": "Widgets com estilo Shelly",
+            "nl": "Widgets in Shelly-stijl",
+            "fr": "Widgets de style Shelly",
+            "it": "Widget in stile Shelly",
+            "es": "Widgets de estilo Shelly",
+            "pl": "Widżety w stylu Shelly",
+            "zh-cn": "雪莉风格的小部件"
+        },
+        "desc": {
+            "en": "A set of Widgets based on Allterco´s Shelly Widgets",
+            "de": "Eine Reihe von Widgets, die auf Alltercos Shelly Widgets basieren",
+            "ru": "Набор виджетов на основе виджетов Shelly от Allterco",
+            "pt": "Um conjunto de Widgets baseado nos Widgets Shelly da Allterco",
+            "nl": "Een set widgets gebaseerd op Allterco´s Shelly Widgets",
+            "fr": "Un ensemble de widgets basés sur les widgets Shelly d'Allterco",
+            "it": "Una serie di widget basati sui widget Shelly di Allterco",
+            "es": "Un conjunto de widgets basados ​​en los widgets Shelly de Allterco",
+            "pl": "Zestaw widżetów oparty na widżetach Shelly firmy Allterco",
+            "zh-cn": "基于Allterco的Shelly Widget的一组Widget"
+        },
+        "authors": [
+            "CrunkFX <crunk.sfx@gmail.com>"
+        ],
+        "keywords": [
+            "Shelly",
+            "Widgets"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "shellystyledwidgets.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/CrunkFX/ioBroker.shellystyledwidgets/master/admin/shellystyledwidgets.png",
+        "readme": "https://github.com/CrunkFX/ioBroker.shellystyledwidgets/blob/master/README.md",
+        "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "onlyWWW": true,
+        "noConfig": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "mode": "once",
+        "dependencies": [
+            "vis"
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}

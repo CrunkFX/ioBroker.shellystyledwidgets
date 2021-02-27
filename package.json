@@ -1,0 +1,40 @@
+{
+  "name": "iobroker.shellystyledwidgets",
+  "version": "0.0.1",
+  "description": "A set of Widgets based on Allterco´s Shelly Widgets",
+  "author": {
+    "name": "CrunkFX",
+    "email": "crunk.sfx@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "CrunkFX"
+    }
+  ],
+  "homepage": "https://github.com/CrunkFX/ioBroker.shellystyledwidgets",
+  "license": "MIT",
+  "keywords": [
+    "Shelly",
+    "Widgets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrunkFX/ioBroker.shellystyledwidgets"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@iobroker/testing": "^2.4.2",
+    "@types/gulp": "^4.0.8",
+    "axios": "^0.21.1",
+    "gulp": "^4.0.2"
+  },
+  "main": "widgets/shellystyledwidgets.html",
+  "scripts": {
+    "test:package": "mocha test/package --exit",
+    "test": "npm run test:package"
+  },
+  "bugs": {
+    "url": "https://github.com/CrunkFX/ioBroker.shellystyledwidgets/issues"
+  },
+  "readmeFilename": "README.md"
+}

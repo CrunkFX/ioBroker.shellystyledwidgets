@@ -1,0 +1,27 @@
+{
+    "cli": true,
+    "adapterName": "shellystyledwidgets",
+    "title": "Shelly Styled Widgets",
+    "description": "A set of Widgets based on Allterco´s Shelly Widgets",
+    "keywords": [
+        "Shelly",
+        "Widgets"
+    ],
+    "contributors": [
+        "CrunkFX"
+    ],
+    "expert": "no",
+    "features": [
+        "vis"
+    ],
+    "type": "visualization-widgets",
+    "authorName": "CrunkFX",
+    "authorGithub": "CrunkFX",
+    "authorEmail": "crunk.sfx@gmail.com",
+    "gitRemoteProtocol": "HTTPS",
+    "gitCommit": "no",
+    "license": "MIT License",
+    "ci": "gh-actions",
+    "dependabot": "no",
+    "creatorVersion": "1.31.0"
+}
